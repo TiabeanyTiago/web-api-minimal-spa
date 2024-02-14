@@ -17,7 +17,7 @@
 	// }
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "dotnet tool install -g dotnet-ef",
+	"postCreateCommand": "dotnet tool install -g dotnet-ef --version 8.0.1",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "18"
